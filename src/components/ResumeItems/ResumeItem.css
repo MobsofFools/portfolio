@@ -1,0 +1,37 @@
+ul {
+    list-style-type: none;
+}
+.resume_descriptor{
+    font-size: x-large;
+    font-weight: 700;
+    font-family: 'Segoe UI';
+}
+
+.resume_date {
+    font-family: 'Trebuchet MS';
+    font-size: smaller;
+    font-weight: 300;
+    font-style: italic;
+    margin-bottom: 0;
+    margin-top: 16px;
+}
+.resume_header {
+    font-family: 'Segoe UI';
+    font-size: large;
+    font-weight: 700;
+    margin-bottom: 0;
+
+}
+.resume_location {
+    font-family: 'Trebuchet MS';
+    font-size: medium;
+    font-style: italic;
+    font-weight: 500;
+    margin-bottom: 5px;
+
+}
+.resume_content {
+    font-family: 'Trebuchet MS';
+    font-size: 15px;
+
+}

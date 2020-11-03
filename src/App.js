@@ -5,7 +5,7 @@ import './App.css';
 import Home from './components/Home';
 import Resume from './components/Resume'
 import Projects from './components/Projects/Projects';
-
+import ScrollToTop from './components/ScrollToTop';
 
 
 function App() {
@@ -13,6 +13,7 @@ function App() {
   return (
     <>
     <Router>
+      <ScrollToTop/>
       <Navbar/>
       <Switch>
         <Route exact path='/' component={Home}></Route>

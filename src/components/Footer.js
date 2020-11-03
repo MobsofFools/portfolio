@@ -22,11 +22,7 @@ function Footer() {
       </div>
       <section className='social-media'>
         <div className='social-media-wrap'>
-          <div className='footer-logo'>
-            <Link to='/' className='social-logo'>
-              Edvin Lin
-            </Link>
-          </div>
+        <small className='website-rights'>Built with React</small>
           <small className='website-rights'>Edvin Lin © 2020</small>
           <div className='social-icons'>
             <a

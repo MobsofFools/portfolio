@@ -35,9 +35,9 @@ function Cards() {
             />
             <CardItem
               src={InvigHTML}
-              text='First Group Project for OOSD'
+              text='First Threaded Project Prototyping for Invigulus'
               label='HTML/CSS'
-              path='/products'
+              path='https://github.com/MichaelGrier/invigilus_project'
             />
           </ul>
         </div>

@@ -1,17 +1,23 @@
 import React from 'react';
-import { Container, Row, Col } from 'reactstrap';
+import { Container } from 'reactstrap';
+import Education from './ResumeItems/Education';
+import Work from './ResumeItems/Work';
+import Skills from './ResumeItems/Skills';
+import './ResumeItems/ResumeItem.css';
 
-const Resume = (props) => {
+const Resume = () => {
+  
   return (
     <div>
-    <Container>
-      <Row>
-        <Col>.col</Col>
-        <Col>.col</Col>
-        <Col>.col</Col>
-        <Col>.col</Col>
-      </Row>
-    </Container>
+      <Container>
+        <h2>Resume</h2>
+        <p className='resume_descriptor'>Skills</p>
+        <Skills/>
+        <p className='resume_descriptor'>Education</p>
+        <Education/>
+        <p className='resume_descriptor'>Employment History</p>
+        <Work/>
+      </Container>
     </div>
   );
 }

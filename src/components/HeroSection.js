@@ -2,7 +2,6 @@ import React from 'react';
 import '../App.css';
 import { Button } from './Button';
 import './HeroSection.css';
-import {Link} from 'react-router-dom';
 
 function HeroSection() {
   return (
@@ -11,22 +10,22 @@ function HeroSection() {
       <p>Hire me pls</p>
       <div className='hero-btns'>
         <Button
+          path='/resume'
           className='btns'
           buttonStyle='btn--primary'
           buttonSize='btn--large'
+          style={{ textDecoration: 'none' }}
         >
-          <Link to='/resume' style={{ textDecoration: 'none' }}>
             RESUME
-          </Link>
         </Button>
         <Button
+          path='/projects' 
           className='btns'
           buttonStyle='btn--primary'
           buttonSize='btn--large'
+          style={{ textDecoration: 'none' }}
         >
-          <Link to='/projects' style={{ textDecoration: 'none' }}>
             PROJECTS
-          </Link>
         </Button>
       </div>
     </div>
