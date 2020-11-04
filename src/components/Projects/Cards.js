@@ -1,15 +1,14 @@
 import React from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
-import TravelExperts from '../img/TravelExperts.PNG'
-import Nuggies from '../img/nuggies1.png'
-import WFCalc from '../img/wfcalculator.png'
-import InvigHTML from '../img/InvigulusHTML.png'
+import TravelExperts from '../../img/TravelExperts.PNG'
+import Nuggies from '../../img/nuggies1.png'
+import WFCalc from '../../img/wfcalculator.png'
+import InvigHTML from '../../img/InvigulusHTML.png'
 
 function Cards() {
   return (
     <div className='cards'>
-      <h1>Projects</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>

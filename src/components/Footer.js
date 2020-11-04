@@ -5,21 +5,6 @@ import { Link } from 'react-router-dom';
 function Footer() {
   return (
     <div className='footer-container'>
-      <div className='footer-links'>
-        <div className='footer-link-wrapper'>
-          <div className='footer-link-items'>
-            <h2>Contact Me</h2>
-            <Link to='/'>Contact</Link>
-          </div>
-        </div>
-        <div className='footer-link-wrapper'>
-          <div className='footer-link-items'>
-            <h2>Social Media</h2>
-            <a href="https://www.linkedin.com/in/edvinlin/">LinkedIn</a>
-            <a href="https://github.com/MobsofFools">GitHub</a>
-          </div>
-        </div>
-      </div>
       <section className='social-media'>
         <div className='social-media-wrap'>
         <small className='website-rights'>Built with React</small>

@@ -2,6 +2,12 @@ ul {
     list-style-type: none;
 }
 
+.title {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: Helvetica;
+    text-align: center;
+}
 .resume_descriptor{
     font-size: x-large;
     font-weight: 700;
@@ -38,9 +44,10 @@ ul {
 
 }
 .skill_img {
-    height: 50px;
+    max-width: 5vw;
+    min-width: 40px;
+    height: auto;
     align-self: center;
-    width: auto;
 }
 .skill_item{
     display: flex;
@@ -51,6 +58,9 @@ ul {
 }
 .skill_name {
     text-align: center;
+    font-family: 'Trebuchet MS';
+    font-size: medium;
+    font-weight: 700;
 }
 .box_shadow{
     border: 1px solid #888888;
