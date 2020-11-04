@@ -8,9 +8,9 @@ import './ResumeItems/ResumeItem.css';
 const Resume = () => {
   
   return (
-    <div>
+    <div className='background'>
       <Container>
-        <h2>Resume</h2>
+        <p className='title'>Resume</p>
         <p className='resume_descriptor'>Skills</p>
         <Skills/>
         <p className='resume_descriptor'>Education</p>
